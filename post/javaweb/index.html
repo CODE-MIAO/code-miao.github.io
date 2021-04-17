@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Javaweb // MIAO</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.82.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="MIAO" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://code-miao.github.io/css/main.min.88e7083eff65effb7485b6e6f38d10afbec25093a6fac42d734ce9024d3defbd.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Javaweb"/>
+<meta name="twitter:description" content="Javaweb 1、基本概念 1.1前沿 web开发：
+  web，网页的意思，百度
+  静态web
+ html,css 提供给所有人看的数据始终不会发生变化！    动态web
+ 淘宝，几乎是所有的网站 提供给所有人看到数据始终会发生变化，每个人在不同的时间，不同的地点看到的信息各不相同！ 技术栈：Servlet/JSP,ASP,PHP    在java中，动态wen资源开发的技术统称为JavaWeb;
+1.2、web应用程序 web应用程序：可以提供浏览器访问的程序；
+ a.html、b.html&hellip;&hellip;多个web资源，这些web资源可以被外界访问，对外界提供访问 你们能访问到底任何一个页面或者资源，多存在这个世界的某一个角落的计算机上。 URL 这个同意的web资源都会被放在同一个文件夹下，web应用成语&ndash;&gt;服务器 一个web应用由多个部分组成（静态web,动态web）  html,css,js jsp,servlet java程序 jar包 配置文件（Properties）    web应用程序编写完毕后，若想提供给我外界访问：需要一个服务器来统一管理；
+1.3、静态web  .htm,.html这些都是网页的后缀，如果服务器上一直存在这些东西，我们就可以直接进行读取。 静态web存在的缺点  Web页面无法动态更新，所有用户看到都是同一个页面 它无法和数据库交互（数据无法持久化，用户无法交互）  轮播图，点击特效，伪动态 JavaScript【实际开发中，它用的最多】 VBScript   它无法和数据可交互（数据无法持久化，用户无法交互）    1.4、动态web 页面会动态展示：web的页面会因人而异;
+缺点：
+ 加入服务器的动态Web资源出现了错误，我们需要重新编写我么的后台程序，重新发布;  停机维护    优点："/>
+
+    <meta property="og:title" content="Javaweb" />
+<meta property="og:description" content="Javaweb 1、基本概念 1.1前沿 web开发：
+  web，网页的意思，百度
+  静态web
+ html,css 提供给所有人看的数据始终不会发生变化！    动态web
+ 淘宝，几乎是所有的网站 提供给所有人看到数据始终会发生变化，每个人在不同的时间，不同的地点看到的信息各不相同！ 技术栈：Servlet/JSP,ASP,PHP    在java中，动态wen资源开发的技术统称为JavaWeb;
+1.2、web应用程序 web应用程序：可以提供浏览器访问的程序；
+ a.html、b.html&hellip;&hellip;多个web资源，这些web资源可以被外界访问，对外界提供访问 你们能访问到底任何一个页面或者资源，多存在这个世界的某一个角落的计算机上。 URL 这个同意的web资源都会被放在同一个文件夹下，web应用成语&ndash;&gt;服务器 一个web应用由多个部分组成（静态web,动态web）  html,css,js jsp,servlet java程序 jar包 配置文件（Properties）    web应用程序编写完毕后，若想提供给我外界访问：需要一个服务器来统一管理；
+1.3、静态web  .htm,.html这些都是网页的后缀，如果服务器上一直存在这些东西，我们就可以直接进行读取。 静态web存在的缺点  Web页面无法动态更新，所有用户看到都是同一个页面 它无法和数据库交互（数据无法持久化，用户无法交互）  轮播图，点击特效，伪动态 JavaScript【实际开发中，它用的最多】 VBScript   它无法和数据可交互（数据无法持久化，用户无法交互）    1.4、动态web 页面会动态展示：web的页面会因人而异;
+缺点：
+ 加入服务器的动态Web资源出现了错误，我们需要重新编写我么的后台程序，重新发布;  停机维护    优点：" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://code-miao.github.io/post/javaweb/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-04-17T18:52:49&#43;08:00" />
+<meta property="article:modified_time" content="2021-04-17T18:52:49&#43;08:00" /><meta property="og:site_name" content="MIAO" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://code-miao.github.io/"><img class="app-header-avatar" src="/avatar.jpg" alt="MIAO" /></a>
+      <h1>MIAO</h1>
+      <p>A college Student from wuhan textile university</p>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Javaweb</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Apr 17, 2021
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          1 min read
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <h1 id="javaweb">Javaweb</h1>
+<h2 id="1基本概念">1、基本概念</h2>
+<h2 id="11前沿">1.1前沿</h2>
+<p>web开发：</p>
+<ul>
+<li>
+<p>web，网页的意思，<a href="www.baidu.com">百度</a></p>
+</li>
+<li>
+<p>静态web</p>
+<ul>
+<li>html,css</li>
+<li>提供给所有人看的数据始终不会发生变化！</li>
+</ul>
+</li>
+<li>
+<p>动态web</p>
+<ul>
+<li>淘宝，几乎是所有的网站</li>
+<li>提供给所有人看到数据始终会发生变化，每个人在不同的时间，不同的地点看到的信息各不相同！</li>
+<li>技术栈：Servlet/JSP,ASP,PHP</li>
+</ul>
+</li>
+</ul>
+<p>在java中，动态wen资源开发的技术统称为JavaWeb;</p>
+<h2 id="12web应用程序">1.2、web应用程序</h2>
+<p>web应用程序：可以提供浏览器访问的程序；</p>
+<ul>
+<li>a.html、b.html&hellip;&hellip;多个web资源，这些web资源可以被外界访问，对外界提供访问</li>
+<li>你们能访问到底任何一个页面或者资源，多存在这个世界的某一个角落的计算机上。</li>
+<li>URL</li>
+<li>这个同意的web资源都会被放在同一个文件夹下，web应用成语&ndash;&gt;服务器</li>
+<li>一个web应用由多个部分组成（静态web,动态web）
+<ul>
+<li>html,css,js</li>
+<li>jsp,servlet</li>
+<li>java程序</li>
+<li>jar包</li>
+<li>配置文件（Properties）</li>
+</ul>
+</li>
+</ul>
+<p>web应用程序编写完毕后，若想提供给我外界访问：需要一个服务器来统一管理；</p>
+<h3 id="13静态web">1.3、静态web</h3>
+<ul>
+<li><em>.htm,</em>.html这些都是网页的后缀，如果服务器上一直存在这些东西，我们就可以直接进行读取。</li>
+<li>静态web存在的缺点
+<ul>
+<li>Web页面无法动态更新，所有用户看到都是同一个页面</li>
+<li>它无法和数据库交互（数据无法持久化，用户无法交互）
+<ul>
+<li>轮播图，点击特效，伪动态</li>
+<li>JavaScript【实际开发中，它用的最多】</li>
+<li>VBScript</li>
+</ul>
+</li>
+<li>它无法和数据可交互（数据无法持久化，用户无法交互）</li>
+</ul>
+</li>
+</ul>
+<h3 id="14动态web">1.4、动态web</h3>
+<p>页面会动态展示：web的页面会因人而异;</p>
+<p>缺点：</p>
+<ul>
+<li>加入服务器的动态Web资源出现了错误，我们需要重新编写我么的后台程序，重新发布;
+<ul>
+<li>停机维护</li>
+</ul>
+</li>
+</ul>
+<p>优点：</p>
+<ul>
+<li>Web页面可以动态更新，所有用户看到都不是同一个页面</li>
+<li>它可以与数据库交互（数据持久化：注册，商品信息，用户信息&hellip;&hellip;）</li>
+</ul>
+<h2 id="2session">2.Session</h2>
+<p>什么事Session:</p>
+<ul>
+<li>服务器会给每一个用户(浏览器)创建一个Session对象；</li>
+<li>一个Session独占一格浏览器，只要浏览器没有关闭，这个Seesion就存在</li>
+<li>用户登陆之后，整个网站它都可以访问！&ndash;&gt;保存用户的信息；保存购物车的信息&hellip;&hellip;&hellip;.</li>
+</ul>
+<p>Session和cookie的区别：</p>
+<ul>
+<li>Cookie是把用户的数据写给用户的浏览器，浏览器保存（可以保存多个）</li>
+<li>Session把用户的数据写到用户独占Session中,服务器端保存（保存重要的信息，减少服务器资源的浪费）</li>
+<li>Session对象由服务创建；</li>
+</ul>
+<p>使用场景：</p>
+<ul>
+<li>保存一个登录用户的信息；</li>
+<li>购物车信息；</li>
+<li>在整个网站中经常会使用的资源，我们将它保存在Session中;</li>
+</ul>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
