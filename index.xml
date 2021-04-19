@@ -6,7 +6,26 @@
     <description>Recent content on MIAO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Apr 2021 18:52:49 +0800</lastBuildDate><atom:link href="https://code-miao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Apr 2021 18:58:19 +0800</lastBuildDate><atom:link href="https://code-miao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git</title>
+      <link>https://code-miao.github.io/post/git/</link>
+      <pubDate>Mon, 19 Apr 2021 18:58:19 +0800</pubDate>
+      
+      <guid>https://code-miao.github.io/post/git/</guid>
+      <description>git教程 版本控制 SVN:集中式版本控制系统
+git:分布式版本控制系统
+git config -l 查看git所有配置
+git config &amp;ndash;system &amp;ndash;list	查看git系统配置
+git config &amp;ndash;global &amp;ndash;list	查看git本地配置
+git init 在当前目录新建一个git代码库
+git clone [url]	克隆远程仓库
+git add .添加所有文件到暂存区
+git commit -m &amp;ldquo;消息内容&amp;rdquo;	提交暂存区中的内容到本地仓库 -m 提交信息
+hugo &amp;ndash;theme=m10c &amp;ndash;baseUrl=&amp;ldquo;https://code-miao.github.io&amp;rdquo; &amp;ndash;buildDrafts
+其中,m10c 是我所应用的主题，https://code-miao.github.io 是我的GitHub中为hugo博客配置的仓库</description>
+    </item>
+    
     <item>
       <title>Javaweb</title>
       <link>https://code-miao.github.io/post/javaweb/</link>
@@ -32,25 +51,6 @@
       
       <guid>https://code-miao.github.io/post/newblog/</guid>
       <description>this is my first blog！！！！ </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://code-miao.github.io/post/git%E6%95%99%E7%A8%8B/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://code-miao.github.io/post/git%E6%95%99%E7%A8%8B/</guid>
-      <description>git教程 版本控制 SVN:集中式版本控制系统
-git:分布式版本控制系统
-git config -l 查看git所有配置
-git config &amp;ndash;system &amp;ndash;list	查看git系统配置
-git config &amp;ndash;global &amp;ndash;list	查看git本地配置
-git init 在当前目录新建一个git代码库
-git clone [url]	克隆远程仓库
-git add .添加所有文件到暂存区
-git commit -m &amp;ldquo;消息内容&amp;rdquo;	提交暂存区中的内容到本地仓库 -m 提交信息
-hugo &amp;ndash;theme=m10c &amp;ndash;baseUrl=&amp;ldquo;https://code-miao.github.io&amp;rdquo; &amp;ndash;buildDrafts
-其中,m10c 是我所应用的主题，https://code-miao.github.io 是我的GitHub中为hugo博客配置的仓库</description>
     </item>
     
   </channel>
